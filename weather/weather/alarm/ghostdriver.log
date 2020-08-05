@@ -1,0 +1,33 @@
+[INFO  - 2020-07-08T07:47:01.843Z] GhostDriver - Main - running on port 51312
+[INFO  - 2020-07-08T07:47:03.956Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-07-08T07:47:03.956Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.customHeaders:  - {}
+[INFO  - 2020-07-08T07:47:03.956Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-07-08T07:47:03.957Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 36ee3900-c0ef-11ea-bc1a-3138268d5bd0
+[ERROR - 2020-07-08T07:47:14.047Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - msg: ReferenceError: Can't find variable: W
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.047Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - stack:
+  global code (http://www.weather.com.cn/alarm/newalarmcontent.shtml?file=10107-20200708041601-1202.html:432)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.143Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.143Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - stack:
+  global code (https://j.i8tq.com/weather1d/pcvideo.js?20190718:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.147Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - msg: ReferenceError: Can't find variable: W
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.147Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - stack:
+  global code (http://www.weather.com.cn/alarm/newalarmcontent.shtml?file=10107-20200708041601-1202.html:497)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.147Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-08T07:47:14.147Z] Session [36ee3900-c0ef-11ea-bc1a-3138268d5bd0] - page.onError - stack:
+  global code (http://www.weather.com.cn/alarm/newalarmcontent.shtml?file=10107-20200708041601-1202.html:564)
+
+  phantomjs://platform/console++.js:263 in error

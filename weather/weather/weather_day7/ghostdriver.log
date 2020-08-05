@@ -1,0 +1,14 @@
+[INFO  - 2020-07-15T08:38:09.841Z] GhostDriver - Main - running on port 64561
+[INFO  - 2020-07-15T08:38:11.966Z] Session [847fa5a0-c676-11ea-8bd9-8fba1d6b2878] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-07-15T08:38:11.966Z] Session [847fa5a0-c676-11ea-8bd9-8fba1d6b2878] - page.customHeaders:  - {}
+[INFO  - 2020-07-15T08:38:11.966Z] Session [847fa5a0-c676-11ea-8bd9-8fba1d6b2878] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-07-15T08:38:11.966Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 847fa5a0-c676-11ea-8bd9-8fba1d6b2878
+[ERROR - 2020-07-15T08:38:12.933Z] Session [847fa5a0-c676-11ea-8bd9-8fba1d6b2878] - page.onError - msg: ReferenceError: Can't find variable: BANNER_SLIDER
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-15T08:38:12.933Z] Session [847fa5a0-c676-11ea-8bd9-8fba1d6b2878] - page.onError - stack:
+  global code (http://www.weather.com.cn/weathern/101200201.shtml:647)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-07-15T08:43:09.855Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-07-15T08:43:09.856Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '847fa5a0-c676-11ea-8bd9-8fba1d6b2878', because windowless
